@@ -1,5 +1,4 @@
 package com.example.quanlydatphong.entity;
-
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -24,5 +23,5 @@ public class Booking {
     private LocalDateTime startTime;
     private LocalDateTime endTime;
 
-    private String status;
+    private String status;// CONFIRMED, CANCELLED
 }
