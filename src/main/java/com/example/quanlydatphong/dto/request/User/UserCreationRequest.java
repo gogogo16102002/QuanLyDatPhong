@@ -1,10 +1,9 @@
-package com.example.quanlydatphong.dto.response;
+package com.example.quanlydatphong.dto.request.User;
 
-import jakarta.persistence.Column;
 import lombok.Data;
 
 @Data
-public class UserResponse {
+public class UserCreationRequest {
     private String fullName;
 
     private String username;

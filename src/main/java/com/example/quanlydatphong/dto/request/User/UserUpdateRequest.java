@@ -1,6 +1,9 @@
-package com.example.quanlydatphong.dto.request;
+package com.example.quanlydatphong.dto.request.User;
 
-public class UserCreationRequest {
+import lombok.Data;
+
+@Data
+public class UserUpdateRequest {
     private String fullName;
 
     private String username;
