@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 @Repository
-public interface BookingReository extends JpaRepository<Booking,Long> {
+public interface BookingRepository extends JpaRepository<Booking,Long> {
 
     @Query("SELECT COUNT(b) > 0 FROM Booking b WHERE b.room.id = :roomId " +
             "AND b.startTime < :newEnd AND b.endTime > :newStart " +
